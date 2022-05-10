@@ -1,4 +1,4 @@
-# Terminal implemented Quoridor with AI based on minimax with A-B pruning
+# Terminal implementation of Quoridor with AI based on minimax with A-B pruning
 
 Wiki: https://en.wikipedia.org/wiki/Quoridor
 
