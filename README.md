@@ -15,11 +15,11 @@ Wiki: https://en.wikipedia.org/wiki/Quoridor
  5)The first player who reaches any of the squares opposite his baseline is the winner.
 
 # *Usage/Commands*:
-**playmove** player position <br/>
+* **playmove** player position <br/>
 
   example: playmove white(OR w) e2 - moves white to E2
   
-**playwall** player position orientation <br/>
+* **playwall** player position orientation <br/>
 
   examples:<br/>
   playwall black(OR b) a3 horizontal(OR h) - black places a horizontal wall starting at A3 <br/>
