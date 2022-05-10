@@ -56,7 +56,7 @@ Wiki: https://en.wikipedia.org/wiki/Quoridor
 **Note:** The commands are not case sensitive <br/>
 
 # *AI engine*:
-  The AI engine uses minimax with A-B pruning and the depth is dependent on the current boardsize. The engine checks and executes the given move and undoes it before moving to the next branch of this depth level. When the depth reaches zero the engine evaluates the current boardsize by evaluating both players shortest paths to their equivalent winning row. The egnine considere's positive evaluations to benefit white player and negative evaluations to benefit black.
+  The AI engine uses minimax with A-B pruning and the depth is dependent on the current boardsize. The engine checks and executes the given move and undoes it before moving to the next branch of this depth level. When the depth reaches zero the engine evaluates the current boardsize by evaluating both players shortest paths to their equivalent winning row. The egnine consider's positive evaluations to benefit white player and negative evaluations to benefit black.
 
 
 # *Disclaimers*:
