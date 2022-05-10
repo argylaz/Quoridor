@@ -27,7 +27,7 @@ Wiki: https://en.wikipedia.org/wiki/Quoridor
   
 * **genmove** <player> <br/>
 
-  example: genmove white - engine plays a move for the given player.
+  example: * genmove white - engine plays a move for the given player.
  
 * **showboard** <br/>
 
