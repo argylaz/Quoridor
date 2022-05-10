@@ -15,17 +15,17 @@ Wiki: https://en.wikipedia.org/wiki/Quoridor
  5)The first player who reaches any of the squares opposite his baseline is the winner.
 
 # *Usage/Commands*:
-* **playmove** player position <br/>
+* **playmove** <player> <position> <br/>
 
   example: playmove white(OR w) e2 - moves white to E2
   
-* **playwall** player position orientation <br/>
+* **playwall** <player> <position> <orientation> <br/>
 
   examples:<br/>
   playwall black(OR b) a3 horizontal(OR h) - black places a horizontal wall starting at A3 <br/>
   playwall white(OR w) b4 vertical(OR v) - white places a vertical wall starting at B4 <br/>
   
-* **genmove** player <br/>
+* **genmove** <player> <br/>
 
   example: genmove white - engine plays a move for the given player.
  
@@ -52,7 +52,8 @@ Wiki: https://en.wikipedia.org/wiki/Quoridor
 * **list_commands** <br/>
 
   List all commands
-
+  
+**Note:** The commands are not case sensitive <br/>
 
 # *AI engine*:
   The AI engine uses minimax with A-B pruning and the depth is dependent on the current boardsize. The engine checks and executes the given move and undoes it before moving to the next branch of this depth level. When the depth reaches zero the engine evaluates the current boardsize by evaluating both players shortest paths to their equivalent winning row. The egnine considere's positive evaluations to benefit white player and negative evaluations to benefit black.
